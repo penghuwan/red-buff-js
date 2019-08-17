@@ -1,0 +1,30 @@
+{
+  "name": "buff-js",
+  "version": "1.0.0",
+  "description": "通过原生JavaScript工具函数的方式，模拟私有变量，抽象接口，函数重载等特性",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penghuwan/buff-js.git"
+  },
+  "keywords": [
+    "javaScript",
+    "interface",
+    "private",
+    "variable",
+    "function",
+    "overlording"
+  ],
+  "author": "penghuwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/penghuwan/buff-js/issues"
+  },
+  "homepage": "https://github.com/penghuwan/buff-js#readme",
+  "dependencies": {
+    "typeof": "^1.0.0"
+  }
+}
