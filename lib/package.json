@@ -1,5 +1,5 @@
 {
-  "name": "buff-js",
+  "name": "red-buff-js",
   "version": "1.0.0",
   "description": "通过原生JavaScript工具函数的方式，模拟私有变量，抽象接口，函数重载等特性",
   "main": "index.js",
