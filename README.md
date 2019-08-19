@@ -80,3 +80,6 @@ function Construct() {
 }
 const construct = new implConstruct(); // 则new时报错: Error: 方法返回值类型不合接口要求
 ```
+**备注**
+实际上，我有一个可以实现根据参数类型重载的方案：修改函数原型，添加Function.prototype.setTypes(<Type Array>)，
+ 但是这种方式我认为有存在一定的风险，所以就此搁置
