@@ -7,7 +7,7 @@ red-buff-js通过原生JavaScript工具函数的方式，模拟私有变量，�
 + **simulateImplement: 模拟接口和实现**
 # Usage
 **simulatePrivate:模拟私有变量**
-```
+```js
 const { simulatePrivate } = require('red-buff-js')
 
 function People(name, height, age, weight) {
@@ -27,7 +27,7 @@ console.log(people._weight); // 报错:Error: 私有变量不可访问
 ```
 
 **simulateOverload:模拟重载**
-```
+```js
 const { simulateOverload } = require('red-buff-js');
 // 为了避免外部重载，只能以具名函数参数的方式添加
 // 而且因为JS的弱类型限制，无法实现参数类型重载
@@ -45,7 +45,7 @@ fn(1, 2);   // 2个参数
 fn(1, 2, 3);// 3个参数
 ```
 **simulateImplement:模拟接口和实现**
-```
+```js
 const interface = {
     name: 'interface-1',
     fns: {
@@ -74,7 +74,7 @@ console.log(construct.method2(true));    // 1
 console.log(construct.method2(22));     // Error:方法参数列表类型不合接口要求
 ```
 **Case: 如果把上面的Construct改成**
-```
+```js
 function Construct() {
     this.method1 = function (str, num) { return 2; }
 }
