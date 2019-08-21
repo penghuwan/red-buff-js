@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/syntax-ES6-blue)
-
+![](https://img.shields.io/badge/release-1.0.0-brightgreen)
 # red-buff-js
 red-buff-js通过原生JavaScript工具函数的方式，模拟私有变量，抽象接口，函数重载等特性。它是一个给JS加的红BUFF，以增加法术和普攻效果，因此命名为red-buff-js。
 
