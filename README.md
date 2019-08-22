@@ -5,7 +5,7 @@ red-buff-js通过原生JavaScript工具函数的方式，模拟私有变量，�
 
 ## 个人知乎专栏文章
 [给你的JS加个Buff吧](https://zhuanlan.zhihu.com/p/78612166)
-
+包含对代码设计的详细注解
 # Description
 + **simulatePrivate: 模拟私有变量**
 + **simulateOverload: 模拟函数重载**
